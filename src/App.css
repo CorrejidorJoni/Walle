@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+
+.container {
+  padding: 20px;
+  
+}
+.nav_brand {
+  width: 60px;
+  font-size: x-large;
+  
+  
+  
+}
+
+.marca {
+  font-weight: 800;
+  
+}
+
+ul {
+  list-style: none;
+  
+}
+
+a:link {
+  text-decoration: none;
+}
+
+li {
+  display: inline;
+  padding: 30px;
+  font-size: x-large;
+  margin-left: 30px;
+  
+  
+}
+
+nav {
+  text-align:left;
+  
+}
+
+
+
+
+
+
+
+
