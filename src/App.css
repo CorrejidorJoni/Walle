@@ -36,16 +36,33 @@ li {
   
   
 }
-
+.nav_list{
+  height: 40px;
+}
 nav {
   text-align:left;
+  height: 40px;
   
+}
+
+.nav_brand{
+  height: 40px;
 }
 
 
 
-
-
+img{
+  width: 350px;
+  height: 350px;
+}
+.flex{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+    
+}
 
 
 

@@ -1,0 +1,45 @@
+[
+    {
+        "id": 1,
+        "title": "BatDog",
+        "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/238/057/products/arnes-batman51-847cb6b498cce5e98915517496141197-480-0.png",
+        "price": 4545,
+        "description": "lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+    },
+    {
+        "id": 2,
+        "title": "Fire ",
+        "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/238/057/products/arnes-bowie11-670b7b2ce327f0797415517486377392-480-0.png",
+        "price": 4545,
+        "description": "lorem ipsum dolor sit amet, consectetuer adipiscing elit." 
+    },
+    {
+        "id": 3,
+        "title": "CapDog",
+        "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/238/057/products/captain-america1-b6e7d8153f43b473fd15596820644112-480-0.png",
+        "price": 4545,
+        "description": "lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+    },
+    {
+        "id": 4,
+        "title": "Flowers",
+        "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/238/057/products/arnes-shabby1-20793d40153d6775fc15517431750979-480-0.png",
+        "price": 4545,
+        "description": "lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+    },
+    {
+        "id": 5,
+        "title": "SuperDog",
+        "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/238/057/products/arnes-superman41-4784b89ac7e4a654f715517484079143-480-0.png",
+        "price": 4545,
+        "description": "lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+    },
+    {
+        "id": 6,
+        "title": "Space",
+        "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/238/057/products/vostok31-ad1e7486616331c64715600180269096-480-0.png",
+        "price": 4545,
+        "description": "lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+    }
+    
+]

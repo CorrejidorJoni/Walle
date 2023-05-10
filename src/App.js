@@ -1,7 +1,9 @@
 import './App.css';
+
+
 import ItemListContainer from './components/ItemListContainer';
 import NavBar from './components/NavBar';
-import Image from './components/Image';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 
 
@@ -10,12 +12,21 @@ import Image from './components/Image';
 function App() {
   return (
     <div className="App">
-      
-     <NavBar />
-     <ItemListContainer texto='Bienvenidos a Walle Argentina'/>
-     <Image />
-     
+    <BrowserRouter>
 
+     <NavBar />
+
+     <Routes>
+      <Route path="/" element={<ItemListContainer/>}/>
+      <Route path="/category/:id" element={<ItemListContainer/>}/>
+      
+      
+     </Routes>
+
+
+     <ItemListContainer />
+
+    </BrowserRouter> 
     </div>
   );
 }

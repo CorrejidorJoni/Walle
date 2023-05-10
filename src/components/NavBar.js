@@ -12,9 +12,7 @@ const NavBar = () => {
 
                 </div>
                 <ul className='"nav_list'>
-                <li>
-                        <a className='nav_link' href="#">Nosotros</a>
-                    </li>
+                
                     <li>
                         <a className='nav_link' href="#">Productos</a>
                     </li>
@@ -22,14 +20,16 @@ const NavBar = () => {
                         <a className='nav_link' href="#">Contacto</a>
                     </li>
                     <li>
-                        <a className='nav_link' href="#"><CartWidget /> 0</a>
+                        <a className='nav_links' href="#"><CartWidget />0</a>
                     </li>
 
                 </ul>
 
             </nav>
             <hr></hr>
+            
         </div>
+        
         
         
         
