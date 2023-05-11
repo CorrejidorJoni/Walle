@@ -61,8 +61,16 @@ img{
   align-items: center;
   text-align: center;
   flex-wrap: wrap;
+
     
 }
+
+.vermas{
+  font-size:larger;
+  font-weight: 700;
+  border-radius:10%;
+}
+
 
 
 
