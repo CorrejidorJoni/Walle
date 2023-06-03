@@ -5,7 +5,8 @@
         "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/238/057/products/arnes-batman51-847cb6b498cce5e98915517496141197-480-0.png",
         "price": 4545,
         "description": "lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
-        "category": "Arnes"
+        "category": "Arnes",
+        "stock":10
     },
     {
         "id": 2,
@@ -13,7 +14,8 @@
         "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/238/057/products/arnes-bowie11-670b7b2ce327f0797415517486377392-480-0.png",
         "price": 4545,
         "description": "lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
-        "category": "Arnes"
+        "category": "Arnes",
+        "stock":10
     },
     {
         "id": 3,
@@ -21,7 +23,8 @@
         "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/238/057/products/captain-america1-b6e7d8153f43b473fd15596820644112-480-0.png",
         "price": 4545,
         "description": "lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
-        "category": "Arnes"
+        "category": "Arnes",
+        "stock":10
     },
     {
         "id": 4,
@@ -29,7 +32,8 @@
         "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/238/057/products/arnes-shabby1-20793d40153d6775fc15517431750979-480-0.png",
         "price": 4545,
         "description": "lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
-        "category": "Arnes"
+        "category": "Arnes",
+        "stock":10
     },
     {
         "id": 5,
@@ -37,7 +41,8 @@
         "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/238/057/products/arnes-superman41-4784b89ac7e4a654f715517484079143-480-0.png",
         "price": 4545,
         "description": "lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
-        "category": "Arnes"
+        "category": "Arnes",
+        "stock":10
     },
     {
         "id": 6,
@@ -45,7 +50,8 @@
         "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/238/057/products/vostok31-ad1e7486616331c64715600180269096-480-0.png",
         "price": 4545,
         "description": "lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
-        "category": "Arnes"
+        "category": "Arnes",
+        "stock":10
     },
     {
         "id": 7,
@@ -53,7 +59,8 @@
         "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/238/057/products/foody11-d96f1c612bbccd89b315890167227507-640-0.png",
         "price": 2345,
         "description": "lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
-        "category": "Collar"  
+        "category": "Collar",
+        "stock":10 
     },
     {
         "id": 8,
@@ -61,7 +68,8 @@
         "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/238/057/products/gamer11-f0fd4241cf72e0aa0016370795636499-640-0.png",
         "price": 2345,
         "description": "lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
-        "category": "Collar"  
+        "category": "Collar",
+        "stock":10  
     },
     {
         "id": 9,
@@ -69,7 +77,8 @@
         "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/238/057/products/racer11-9617a3415994e5857515890166236345-640-0.png",
         "price": 2345,
         "description": "lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
-        "category": "Collar"    
+        "category": "Collar",
+        "stock":10    
     },
     {
         "id": 10,
@@ -77,7 +86,8 @@
         "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/238/057/products/mermaid11-0bfd98cd8ec36b67d415896045331783-640-0.png",
         "price": 2345,
         "description": "lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
-        "category": "Collar"    
+        "category": "Collar",
+        "stock":10    
     },
     {
         "id": 11,
@@ -85,7 +95,8 @@
         "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/238/057/products/shabby21-1cba1bdac16f146e2f15996609623356-640-0.png",
         "price": 2345,
         "description": "lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
-        "category": "Collar"      
+        "category": "Collar",
+        "stock":10      
     },
     {
         "id": 12,
@@ -93,7 +104,8 @@
         "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/238/057/products/camuflado-blue11-9a023a5df430f9a66516370798975106-640-0.png",
         "price": 2345,
         "description": "lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
-        "category": "Pretal"      
+        "category": "Pretal",
+        "stock":10      
     },
     {
         "id": 13,
@@ -101,7 +113,8 @@
         "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/238/057/products/rainbow-111-a0b890f1029eae2d3a15914698463474-640-0.png",
         "price": 2345,
         "description": "lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
-        "category": "Pretal"     
+        "category": "Pretal",
+        "stock":10     
     },
     {
         "id": 14,
@@ -109,7 +122,8 @@
         "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/238/057/products/magic21-c11624c36b1a66380716370803191156-640-0.png",
         "price": 2345,
         "description": "lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
-        "category": "Pretal"  
+        "category": "Pretal",
+        "stock":10  
     },
     {
         "id": 15,
@@ -117,7 +131,8 @@
         "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/238/057/products/gamer2-c3fb08f6945f17405e16370821486999-640-0.png",
         "price": 2345,
         "description": "lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
-        "category": "Pretal"  
+        "category": "Pretal",
+        "stock":10  
     },
     {
         "id": 16,
@@ -125,7 +140,8 @@
         "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/238/057/products/camuflado-pink11-eca58f6286b85accf616370800856602-640-0.png",
         "price": 2345,
         "description": "lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
-        "category": "Pretal"  
+        "category": "Pretal",
+        "stock":10  
     }
     
 ]

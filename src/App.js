@@ -1,9 +1,10 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import ItemDetailContainer from "./components/ItemDetailContainer";
-
+import Contacto from "./components/Contacto";
 import ItemListContainer from './components/ItemListContainer';
 import NavBar from './components/NavBar';
+
 
 
 
@@ -25,6 +26,8 @@ function App() {
       <Route path="/item/:id" element={<ItemDetailContainer />} />
       <Route path="/productos" element={<ItemListContainer/>} />
       <Route path="/productos/:category" element={<ItemListContainer/>} />
+      <Route path='/Contacto' element={<Contacto/>} />
+      
     </Routes>
      
     
