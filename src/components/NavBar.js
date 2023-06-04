@@ -23,19 +23,20 @@ const NavBar = () => {
                         <Link className='nav_link' to="/productos/Pretal">Pretal</Link>
                     </li>
                     <li>
-                        <Link className='nav_links' to="/productos/Collar">Collar</Link>
+                        <Link className='nav_link' to="/productos/Collar">Collar</Link>
                     </li>
                     <li>
-                        <Link className='nav_link' href="#"><CartWidget />0</Link>
+                        <Link className='nav_link' to="/contacto">Contacto</Link>
                     </li>
                     <li>
-                        <Link className='nav_links' to="/contacto">Contacto</Link>
+                        <CartWidget/>
                     </li>
 
                 </ul>
 
             </nav>
             <hr></hr>
+            
             
         </div>
         

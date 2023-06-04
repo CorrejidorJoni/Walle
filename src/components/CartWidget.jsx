@@ -1,17 +1,20 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { Link } from 'react-router-dom';
+import { CartContext } from '../Context/CartContext';
 
 const CartWidget = () => {
 
-
-
-
+    const {cantidadEnCarrito} = useContext(CartContext);
     return (
-
-        <i className="bi bi-cart4"></i>
-
-
-
-
+        <div>
+            <li>
+                <Link className='nav_link' to="/carrito">
+                    Carrito de compras
+                    <span > {cantidadEnCarrito()}</span>
+                    </Link>
+                
+            </li>
+        </div>
     );
 };
 

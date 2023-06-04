@@ -5,6 +5,9 @@ import Contacto from "./components/Contacto";
 import ItemListContainer from './components/ItemListContainer';
 import NavBar from './components/NavBar';
 
+import { CartProvider } from './Context/CartContext';
+import Carrito from './components/Carrito';
+
 
 
 
@@ -15,25 +18,31 @@ import NavBar from './components/NavBar';
 
 
 function App() {
+
+
+
+ 
   return (
     <div className="App">
+    <CartProvider>
+      <BrowserRouter>
+        <NavBar />
     
-    <BrowserRouter>
-     <NavBar />
-    
-    <Routes>
-      <Route path="/" element={<ItemListContainer/>} />
-      <Route path="/item/:id" element={<ItemDetailContainer />} />
-      <Route path="/productos" element={<ItemListContainer/>} />
-      <Route path="/productos/:category" element={<ItemListContainer/>} />
-      <Route path='/Contacto' element={<Contacto/>} />
+         <Routes>
+            <Route path="/" element={<ItemListContainer/>} />
+            <Route path="/item/:id" element={<ItemDetailContainer />} />
+            <Route path="/productos" element={<ItemListContainer/>} />
+            <Route path="/productos/:category" element={<ItemListContainer/>} />
+            <Route path='/Contacto' element={<Contacto/>} />
+            <Route path='/carrito' element={<Carrito/>} />
       
-    </Routes>
+          </Routes>
      
     
     
 
-     </BrowserRouter>
+      </BrowserRouter>
+      </CartProvider>
     </div>
   );
 }

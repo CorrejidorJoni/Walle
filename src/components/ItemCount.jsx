@@ -1,6 +1,6 @@
 
 
-const ItemCount = ({cantidad, restar, sumar}) => {
+const ItemCount = ({cantidad, restar, sumar, agregar}) => {
 
    
 
@@ -11,7 +11,7 @@ const ItemCount = ({cantidad, restar, sumar}) => {
                 <p>{cantidad}</p>
                 <button onClick={sumar}>+</button>
             </div>
-            <button className='agregarcarro' >Agregar al carrito</button>
+            <button className='agregarcarro' onClick={agregar} >Agregar al carrito</button>
         </div>
     );
 }
