@@ -6,44 +6,45 @@ import { Link } from 'react-router-dom';
 
 const NavBar = () => {
     return (
-        <div className='container'>
-            <nav className='nav'>
-                <div className='nav_brand'>
-                    <Link className='nav_link marca' to="/">Walle</Link>
+        
+      
 
-                </div>
-                <ul className='"nav_list'>
-                    <li>
-                        <Link className='nav_link' to="/productos">Catalogo</Link>
-                    </li>
-                    <li>
-                        <Link className='nav_link' to="/productos/Arnes">Arnes</Link>
-                    </li>
-                    <li>
-                        <Link className='nav_link' to="/productos/Pretal">Pretal</Link>
-                    </li>
-                    <li>
-                        <Link className='nav_link' to="/productos/Collar">Collar</Link>
-                    </li>
-                    <li>
-                        <Link className='nav_link' to="/contacto">Contacto</Link>
-                    </li>
-                    <li>
-                        <CartWidget/>
-                    </li>
 
-                </ul>
 
-            </nav>
-            <hr></hr>
+
+
+        <nav class="navbar ">
+        <div class="container-fluid ">
             
+        <ul className='flexnav'>
+        <li class="nav-item">
+            <Link className='nav-link marca' to="/">Walle</Link>
+        </li>
+        <li class="nav-item">
+            <Link className="nav-link "  to="/productos">Catálogo</Link>
+        </li>
+        <li class="nav-item">
+            <Link class="nav-link" to="/productos/Arnes">Arnes</Link>
+        </li>
+        <li class="nav-item">
+            <Link class="nav-link" to="/productos/Pretal">Pretal</Link>
+        </li>
+        <li class="nav-item">
+            <Link class="nav-link" to="/productos/Collar">Collar</Link>
+        </li>
+        <li class="nav-item">
+            <Link class="nav-link" to="/contacto">Contacto</Link>
+        </li>
+        <li class=" nav-item ">
+            <CartWidget />
+        </li>
+      </ul>
+    
+  </div>
+</nav>
             
-        </div>
-        
-        
-        
-        
-    );
-};
+    )};         
+            
+       
 
 export default NavBar;

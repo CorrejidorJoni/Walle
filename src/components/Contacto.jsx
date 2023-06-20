@@ -1,4 +1,5 @@
 import {useForm} from "react-hook-form";
+import React from 'react';
 
 
 const Contacto = () => {
@@ -13,8 +14,8 @@ const enviar = (data) => {
     return (
         
         
-        <div className='container'>
-            <h1>Contacto</h1>
+        <div className='container containerForm '>
+            <h1 className="titcontacto">Contacto</h1>
             <form className='formulario' onSubmit={handleSubmit(enviar)}>
             
             <input type='text' placeholder='Ingresá tu nombre' {...register("nombre")}/>

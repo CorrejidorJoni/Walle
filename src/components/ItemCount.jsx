@@ -1,4 +1,4 @@
-
+import React from 'react';
 
 const ItemCount = ({cantidad, restar, sumar, agregar}) => {
 

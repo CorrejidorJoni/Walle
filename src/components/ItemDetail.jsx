@@ -1,3 +1,4 @@
+import React from 'react';
 import { useContext, useState } from "react";
 import ItemCount from "./ItemCount"
 import { CartContext } from "../Context/CartContext";
@@ -21,7 +22,7 @@ const ItemDetail = ( {item} ) => {
     
 
     return (
-      <div className="container">
+      <div className=" container containerProd">
           <div className="producto-detalle">
               <img src={item.image} alt={item.title} />
               <div>
